@@ -144,4 +144,4 @@ def show_exam_result(request, course_id, submission_id):
     context['grade'] = total_score
     context['choices'] = choices
 
-return render(request, 'onlinecourse/exam_result_bootstrap.html', context)
+    return render(request, 'onlinecourse/exam_result_bootstrap.html', context)
